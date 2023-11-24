@@ -1,0 +1,1 @@
+{"startedTestsAt":"2023-11-23T19:00:41.113Z","endedTestsAt":"2023-11-23T19:00:46.214Z","totalDuration":"5.101 seconds","totalTests":1,"totalPassed":1,"totalPending":0,"totalFailed":0,"totalSkipped":0,"browserName":"electron","browserVersion":"114.0.5735.289","osName":"win32","osVersion":"10.0.22631","cypressVersion":"13.6.0","testCases":["Descreva o que vai ser testado"]}
