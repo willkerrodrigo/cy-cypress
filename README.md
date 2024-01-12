@@ -148,3 +148,37 @@ Configuração de Scripts Cypress (dt-arch-dby-cypress\package.json)
     "cypress:run": "cypress run" // Executa usando DATA_TEST_1 por padrão
     }
 Dessa forma, ao executar os comandos cypress:open ou cypress:run sem especificar um conjunto de dados (DATA_TEST), eles utilizarão automaticamente o conjunto DATA_TEST_1 para realizar os testes automatizados.
+
+----
+
+Execução Automatizada de Testes End-to-End com Cypress: e2e-run-tests.js
+
+Use o seguinte comando para executar o script: "node e2e-run-tests.js"
+
+Explicação:
+
+Ao executar o arquivo e2e-run-tests.js, o script realiza as seguintes operações de forma automatizada:
+
+Execução dos Testes Cypress:
+O script inicia a execução automática dos testes end-to-end usando o framework Cypress, proporcionando uma abordagem eficaz para validar o comportamento do seu aplicativo.
+
+Geração de Relatórios Detalhados:
+Após a conclusão dos testes, o script compila um relatório detalhado que inclui informações essenciais, como título do teste, estado (passado, falhado ou pulado) e a duração de cada teste.
+
+Estatísticas Globais:
+O relatório consolida estatísticas abrangentes, como o número total de testes, quantos foram bem-sucedidos, quantos falharam e quantos foram pulados, fornecendo uma visão global da integridade dos testes.
+
+Porcentagens de Sucesso e Falha:
+Além das estatísticas, o script calcula as porcentagens de sucesso e falha, permitindo uma rápida avaliação da qualidade dos testes em relação ao total.
+
+Arquivo JSON de Resultados:
+O script gera um arquivo JSON chamado testResults.json, que armazena de maneira estruturada os resultados dos testes, oferecendo flexibilidade para análises adicionais ou integração com ferramentas externas.
+
+Relatório Visual em HTML:
+Simultaneamente, é gerado um relatório visual em HTML denominado test-results.html. Este relatório inclui uma tabela detalhada e um gráfico de pizza interativo, proporcionando uma representação visual envolvente dos resultados dos testes.
+
+Gráfico de Pizza Interativo:
+O gráfico de pizza no relatório HTML oferece uma visão intuitiva da distribuição dos testes, destacando visualmente o sucesso, falha e testes pulados.
+
+Facilidade de Integração:
+Ao utilizar o arquivo e2e-run-tests.js, você integra facilmente a execução e relatórios de testes Cypress ao seu fluxo de desenvolvimento, melhorando a eficiência na garantia de qualidade do software.
